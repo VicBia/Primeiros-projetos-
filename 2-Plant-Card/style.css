@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root{
+    --blue-color: #BCCDD0;
+    --white-color: #DFDFD6;
+    --brown-color: #696f5a;
+} 
+
+img.folhas {
+  justify-content: flex-start;
+  width: 291px;
+  height: 492px;
+  border-radius: 30px 0px 0px 30px;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: var(--blue-color);
+}
+
+.box {
+  height: 492px;
+  width: 584px;
+  border-radius: 0px 30px 30px 0px;
+  background-color: var(--white-color);
+  padding: 50px 30px 41px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 119px;
+}
+
+.cont-princ {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.cont-princ h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 36px;
+  height: 36px;
+}
+
+.cont-princ p {
+  font-family: 'Open Sans', sans-serif;
+  height: 154px;  
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  justify-content: space-between;
+  text-align: justify;
+}
+
+.perfil {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 500;
+  display: flex;
+  gap: 305px;
+}
+
+.dog {
+  display: flex;
+  gap: 11px;
+  width: 167px;
+  height: 60px;
+}
+
+.dog img {
+  width: 60px;
+  height: 60px;
+  border-radius: 110px;
+}
+
+.info h2{
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.info p {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.seta img {
+  display: flex;
+  flex-direction: column;
+  width: 3.25rem;
+  height: 52px;
+  border-radius: 85px;
+
+  all: unset;
+  cursor: pointer;
+}
+
+.openseta {
+  display: none;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 15px;
+  width: 231px; 
+  height: 44px;
+  background-color: var(--brown-color);
+  border-radius: 15px;
+}
+
+.sites {
+  align-items: center;
+  justify-content: flex-start;
+  width: 250px;
+  gap: 15px;
+  display: flex;
+  flex-direction: row
+}
+
+h3 {
+  font-weight: 500px;
+  font-size: 20px;
+  line-height: 25px;
+  color: var(--white-color);
+}
+
+@media screen and (max-width: 875px) {
+  img.folhas{
+    display: flex;
+    transform: rotate(90deg);
+    width: 350px;
+    height: 350px;
+  }
+
+  body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 80px;
+    height: 90%;
+    justify-content: center;
+    gap: 0;
+  }
+
+  .box {
+    width: 350px;
+    height: 548px;
+    border-radius: 0px 0px 30px 30px;
+    gap: 70px;
+    padding: 25px 30px;
+  }
+
+  .cont-princ{
+    display: flex;
+    /*width: 70%;*/
+    height: 100%;
+    /*padding: 25px 30px;*/
+  }
+
+.perfil {
+  gap: 71px;
+}
+
+  .dog{
+    display: flex;
+    width: 70%;
+    height: 100%;
+    justify-content: space-between;
+  }
+
+  .perfil {
+    margin-bottom: 25px;  
+  }
+}
