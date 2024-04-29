@@ -1,0 +1,109 @@
+:root{
+    --green-bg-color: rgba(122, 199, 76, 0.1);
+    --orange-bg-color: rgba(238, 129, 48, 0.1);
+    --white-color: #E5E5E5;
+    --green-color: #7AC74C;
+    --orange-color:  #EE8130;
+    --purple-color: #A33EA1;
+    --lilac-color:  #A98FF3;
+} 
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white-color);
+}
+
+.card {
+    width: 17.25rem;
+    display: flex;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    justify-content: space-between;
+    list-style: none;
+}
+
+#grass {
+    background-color: var(--green-bg-color);
+}
+
+#fire {
+    background-color: var(--orange-bg-color);
+}
+
+#water {
+    background-color:  rgba(190, 236, 229, 0.8);
+}
+
+#normal {
+    background-color: rgba(227, 178, 190, 0.8);
+}
+
+#bug {
+    background-color: rgba(205, 226, 179, 0.8);
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 31.25px;
+    align-self:flex-start;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.conteudo {
+    width: 5rem;
+    font-family: 'DM Sans', sans-serif;
+    gap: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.grass {
+    background-color: var(--green-color);
+    border-radius: 50px;
+}
+
+.poison {
+    background-color: var(--purple-color);
+    border-radius: 50px;
+}
+
+.fire {
+    background-color: var(--orange-color);
+    border-radius: 50px;
+}
+
+.flying {
+    background-color: var(--lilac-color);
+    border-radius: 50px;
+}
+
+.water {
+    background-color: #43a5ce;
+    border-radius: 50px;
+}
+
+.bug {
+    background-color: #7fd12c;
+    border-radius: 50px;
+}
+
+.normal {
+    background-color: #e65776;
+    border-radius: 50px;
+}
+.li {
+    font-size: 12px;
+    line-height: 15.62px;
+    align-self:flex-start;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+}
+

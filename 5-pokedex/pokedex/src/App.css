@@ -1,0 +1,48 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 65rem;
+}
+
+h1 {
+  align-self: flex-start;
+}
+
+.logo {
+  height: 36px;
+  padding: 1em;
+  will-change: filter;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.cards {
+  width: 80rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+@media screen and (max-width: 1120px) {
+  .cards {
+    width: 42rem;
+  }
+}
+
+@media screen and (max-width: 875px) {
+  .cards {
+    width: 20.25rem;
+  }
+}
